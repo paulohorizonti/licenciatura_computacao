@@ -9,7 +9,7 @@ tempInt = int(tempoDesloc // 1)
 tempQueb = tempoDesloc - tempInt
 minT = int(tempQueb * 60)
 
-print('Parte inteira: ', tempInt, ' - Parte quebrada', tempQueb, ' - Minutos', minT)
+#print('Parte inteira: ', tempInt, ' - Parte quebrada', tempQueb, ' - Minutos', minT)
 
 if (tempQueb > 0):
     print('O tempo percorrido para a distância de {}km, a uma velocidade de {}km/h \n'
